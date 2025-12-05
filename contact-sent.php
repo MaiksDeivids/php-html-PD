@@ -1,4 +1,3 @@
-<!-- your code goes here -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,10 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Home</h1>
-    <ul>
-        <li><a href="about.php">iet uz php</a></li>
-        <li><a href="contact.html">iet uz contact</a></li>
-    </ul>
+    <?php
+    echo "vards: "  ($_POST["name"]) . "<br>";
+    echo "epasts: "  ($_POST["email"]) . "<br>";
+    echo "dati: "  ($_POST["feedback"]) . "<br>";
+
+    ?>
 </body>
 </html>

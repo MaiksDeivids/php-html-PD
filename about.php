@@ -23,5 +23,8 @@
     foreach($texts as $text);
         echo "<p> $text </p>";
     ?>
+
+
+    <li><a href="index.html">iet uz php</a></li>
 </body>
 </html>
